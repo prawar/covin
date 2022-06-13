@@ -1,0 +1,62 @@
+.card-body{
+    position: absolute;
+    top: 30%;
+    left: 30%;
+    width: 70%;
+    height: 800px;
+    display: flex;
+
+}
+
+p{
+    font-size: medium;
+    font-weight: 600;
+}
+
+.users {
+    width: 100%;
+}
+
+.users button {
+    width: 60px;
+    height: 50px;
+    margin: 20px;
+    margin-left: 0px;
+    border-radius: 5px;
+    background-color: lightcoral;
+    color: white;
+    font-size: 20px;
+}
+
+.users button:hover {
+    background-color: rgb(241, 92, 92);
+
+}
+.users button:active {
+    background-color: rgb(214, 218, 33);
+
+}
+
+
+.user-data {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+    border: 2px solid black;
+}
+
+
+
+.user-data .pic img{
+    border-radius: 50%;
+}
+
+.user-data .info {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
